@@ -1,0 +1,75 @@
+.container {
+    background-color: var(--white);
+    padding: 2.4rem;
+    border-radius: 2rem;
+    border: .1rem solid var(--black);
+    box-shadow: 1rem 1rem var(--black);
+    margin-inline: 1rem;
+}
+
+.container picture img {
+    border-radius: 1rem;
+    margin-bottom: 2.4rem;
+}
+
+.container h1 {
+    font-size: 1.4rem;
+    font-weight: 900;
+    background-color: var(--yellow);
+    max-width: max-content;
+    padding-inline: 1.2rem;
+    padding-block: .8rem;
+    font-family: "Figtree";
+    border-radius: .4rem;
+    margin-bottom: 1.2rem;
+    color: var(--black);
+}
+
+.container span {
+    font-family: "Figtree";
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+    color: var(--black);
+}
+
+.container h2 {
+    font-family: "Figtree";
+    font-weight: 900;
+    font-size: 2.4rem;
+    margin-bottom: 1.2rem;
+    color: var(--black);
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.container h2:hover{
+    color: var(--yellow);
+}
+
+.container p {
+    font-family: "Figtree";
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--grey);
+    max-width: 31ch;
+    margin-bottom: 2.4rem;
+}
+
+.container .perfil {
+    display: flex;
+    align-items: center;
+}
+
+.container .perfil img {
+    max-width: 3.2rem;
+    margin-right: 1.2rem;
+}
+
+.container .perfil h3 {
+    font-family: "Figtree"; 
+    font-weight: 900;
+    font-size: 1.4rem;
+    color: var(--black);
+}
+

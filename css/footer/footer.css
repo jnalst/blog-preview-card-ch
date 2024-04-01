@@ -1,0 +1,13 @@
+.attribution {
+    font-family: "Figtree";
+    font-size: 1.6rem;
+}
+
+.attribution a {
+    font-weight: 700;
+    transition: all .2s;
+}
+
+.attribution a:hover {
+    color: var(--white);
+}
